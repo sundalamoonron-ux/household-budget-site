@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RumahAnggaran — Anggaran Rumah Tangga yang Rapi</title>
+<meta name="description" content="RumahAnggaran membantu keluarga mencatat pemasukan, mengatur anggaran tiap kategori, menabung untuk tujuan, dan melihat laporan bulanan — semua tersimpan di perangkat sendiri.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span class="brand-name">Rumah<span>Anggaran</span></span>
+    </a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-nav="dashboard">Beranda</a>
+      <a href="#/transaksi" data-nav="transaksi">Transaksi</a>
+      <a href="#/anggaran" data-nav="anggaran">Anggaran</a>
+      <a href="#/tujuan" data-nav="tujuan">Tujuan Tabungan</a>
+      <a href="#/kalkulator" data-nav="kalkulator">Kalkulator</a>
+      <a href="#/laporan" data-nav="laporan">Laporan</a>
+      <a href="#/panduan" data-nav="panduan">Panduan</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="sitefoot">
+  <div class="wrap">
+    <p><strong>RumahAnggaran</strong> — dibuat untuk keluarga yang ingin uangnya jelas larinya ke mana.</p>
+    <p>Semua data contoh tersimpan di peramban Anda sendiri (localStorage). Tidak ada akun, tidak ada data yang dikirim ke mana pun. <a href="#/panduan">Pelajari cara memakai situs ini</a> &middot; <button type="button" class="linklike" id="reset-data">Kembalikan data contoh</button></p>
+  </div>
+</footer>
+</body>
+</html>
